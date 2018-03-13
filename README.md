@@ -7,10 +7,8 @@ Although very early stage this is a demo project of the sort of thing I am aimin
 example below:
 
 ```
- // This is a simple sample using markup to define the UI
   generateView() {
-
-    _MAGUI(
+    <UI>
       <Window backgroundColor="#999999">
         <View backgroundColor="#E6E6E6" top="50" left="10" right="10" height="200">
           <Button id="buttonOne" backgroundColor="blue" title="BUTTON ONE" height="40" width="100" />
@@ -19,7 +17,6 @@ example below:
           <Button id="buttonTwo" backgroundColor="yellow" title="BUTTON TWO" height="40" width="100" />
         </View>
       </Window>     
-    )
-
+    </UI>
   }
 ```
